@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#3e18d6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/imageView" android:layout_width="167dp" android:layout_height="148dp" android:layout_marginTop="50dp" android:src="@drawable/community" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="25sp" android:textColor="#ffffff" android:id="@+id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="CONNEXION" android:layout_below="@+id/imageView" android:layout_centerHorizontal="true"/>
+    <RelativeLayout android:layout_gravity="center" android:background="@drawable/rounded_border" android:padding="20dp" android:layout_width="344dp" android:layout_height="228dp" android:layout_marginTop="270dp" android:layout_marginBottom="40dp" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+        <EditText android:id="@+id/id" android:layout_width="234dp" android:layout_height="56dp" android:hint="Identifiant" android:ems="10" android:layout_centerHorizontal="true" android:inputType="textPersonName"/>
+        <EditText android:id="@+id/password" android:layout_width="228dp" android:layout_height="59dp" android:layout_marginTop="20dp" android:hint="Mot de passe" android:ems="10" android:layout_below="@+id/id" android:layout_centerHorizontal="true" android:inputType="textPassword"/>
+        <Button android:textSize="20sp" android:textColor="#3e18d6" android:id="@+id/login_button" android:background="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="SE CONNECTER" android:layout_below="@+id/password" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

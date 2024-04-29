@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/inverse_rounded_bottom_border" android:layout_width="match_parent" android:layout_height="189dp">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="411dp" android:layout_height="62dp" android:layout_marginTop="40dp" android:src="@drawable/logo_fgcl"/>
+    </LinearLayout>
+    <FrameLayout android:background="@drawable/rounded_top_border" android:layout_width="match_parent" android:layout_height="313dp" android:layout_marginTop="-20dp" android:layout_weight="1">
+        <TextView android:textSize="25sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center" android:id="@+id/nfc_contents" android:background="@drawable/read_bg" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="348dp" android:layout_height="138dp" android:layout_margin="16dp" android:text="PLACEZ VOTRE CARTE AU NIVEAU DU LECTEUR POUR LA LIRE" android:paddingStart="24dp" android:paddingEnd="24dp"/>
+    </FrameLayout>
+</LinearLayout>

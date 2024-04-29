@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical" android:background="@drawable/inverse_rounded_bottom_border" android:layout_width="match_parent" android:layout_height="189dp">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="411dp" android:layout_height="62dp" android:layout_marginTop="40dp" android:src="@drawable/logo_fgcl"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-20dp">
+        <LinearLayout android:orientation="vertical" android:id="@+id/popup_layout" android:background="@drawable/rounded_top_border" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:layout_weight="1">
+
+        </LinearLayout>
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Entrez l'adresse exemple:  http://127.0.0.1:8000"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:paddingStart="24dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="8dp"
+        android:text="Enregistrer"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</LinearLayout>
